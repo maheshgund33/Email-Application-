@@ -9,12 +9,14 @@
 //3.Generate a random String for a password
 //4.Have set methods to change the password, set the mailbox capacity, and define an alternate email address
 //5.Have get methods to display the name, email, and mailbox capacity
+//6. Update the details  in git repo as well.
 
 package EmailApplication;
 
 public class Email {
 	public static void main(String[] args) {
 		EmailApp emp= new EmailApp("Mahesh","Gund");
+		EmailApp emp= new EmailApp("Vaishnavi","Gund");
 		
 		emp.setAlternateEmail("MG@gmail.com");
 		System.out.println("Alternate Email is: "+ emp.getAlternateEmail());
